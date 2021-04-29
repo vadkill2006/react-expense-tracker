@@ -1,5 +1,5 @@
 import {Typography, makeStyles, Box} from '@material-ui/core';
-import {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import './App.css';
 import Balance from './component/Balance';
 import ExpenseCard from './component/ExpenseCard';
