@@ -25,6 +25,10 @@ const useStyle = makeStyles({
       height: '70vh',
     },
   },
+  note:{
+    marginTop: 50,
+    color: 'red',
+  },
   
 })
 
@@ -71,8 +75,9 @@ function App() {
         </Box>
         <Box>
           <Transactions transactions={transactions} deleteTransaction={deleteTransaction}/>
-        </Box>
+        </Box>        
       </Box>
+      <Typography className={classes.note}>Note - To add an Expense please add "-" minus sign before the amount</Typography>
     </div>
   );
 }
